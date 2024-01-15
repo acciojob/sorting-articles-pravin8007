@@ -6,13 +6,10 @@
             padding: 20px;
         }
 
-        h1 {
-            text-align: center;
-        }
-
         #band {
             list-style-type: none;
             padding: 0;
+			margin : 0 50px;
         }
 
         li {
