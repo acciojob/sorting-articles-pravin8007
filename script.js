@@ -7,7 +7,7 @@ const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'N
 
         // Function to strip off "a," "an," and "the" from the beginning of the band names for display
         const stripArticlesForDisplay = (bandName) => {
-            return bandName.replace(/^(a|an)\s+/i, '');
+            return bandName.replace(/^()\s+/i, '');
         };
 
         // Sort the bands without considering "a," "an," and "the"
