@@ -3,7 +3,7 @@
 
         // Function to strip off "a," "an," and "the" from the beginning of the band names
         const stripArticles = (bandName) => {
-            return bandName.replace(/^(a|an|the)\s+/i, '');
+            return bandName.replace(/^(A|An the)\s+/i, '');
         };
 
         // Sort the bands without considering "a," "an," and "the"
