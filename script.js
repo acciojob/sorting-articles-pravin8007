@@ -10,7 +10,7 @@
         const sortedBands = bands.sort((a, b) => stripArticles(a) > stripArticles(b) ? 1 : -1);
 
         // Display the sorted bands on the webpage
-        const bandList = document.getElementById('band');
+        const bandList = document.getElementById('bands');
         sortedBands.forEach(band => {
             const listItem = document.createElement('li');
             listItem.textContent = stripArticles(band);
